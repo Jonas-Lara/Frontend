@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!--Definir la cabecera con header-->
+        <header>
+            <h1>Fundamentos de CSS</h1>
+        </header>
+        <!--Definir menu con la etiqueta nav-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="index.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="index.html">Ustedes</a>
+                </li>
+                <li>
+                    <a href="index.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="clearfix"></div>
+
+        <!--Definir el contenido con la etiqueta section-->
+        <section id="content">
+            <article class="article"> <!--Clase article para definir un artículo, mejor para el SEO--> 
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+            </article>
+            <article class="article">
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+            </article>
+            <article class="article">
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+            </article>
+            <article class="article">
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+            </article>
+        </section>
+        <!--Definir la barra lateral fuera del section con aside-->
+        <aside>
+            <h2>Barra lateral</h2>
+            <form>
+                <input type="text">
+                <input type="submit" value="Buscar" />
+            </form>
+        </aside>
+
+        <div class="clearfix"></div>
+        
+        <!--Definir el pie con footer-->
+        <footer>
+            <p>Copyright &copy; Fundamentos de CSS</p>
+        </footer>
+    </div>
+
+</body>
+</html>

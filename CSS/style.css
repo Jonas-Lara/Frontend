@@ -1,0 +1,102 @@
+*{
+    margin: 0px; /*Margen exterior de una caja*/
+    padding: 0px; /*Margen interior de una caja*/
+}
+
+/*El cuerpo del HTML*/
+body
+{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Todo el contenedor div*/
+#container
+{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+/*Cabecera de la página*/
+header
+{
+    background: red;
+    height: 100px; /*En sentido de las manecillas del reloj, si solo hay un valor entonces es general*/
+    width: 100%;
+    margin: 0px;
+    text-align: center; /*Centrar texto al ancho*/
+    line-height: 100px; /*Centrar texto al alto*/
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+/*Barra de navegación*/
+
+nav
+{
+    background: #6037b9e9; /*Color de fondo*/
+    height: 50px; /*Alto de la barra, necesario para dar color*/
+    border-bottom: 1px solid black;
+}
+
+nav ul li
+{
+    float: left; /*Para que se desplace horizontalmente*/ ;
+    list-style: none; /*Para que no se muestren los puntos de la lista*/
+    margin: 10px;
+    line-height: 30px; /*Centrar texto al alto*/
+}
+nav ul li a
+{
+    text-decoration: none; /*Para que no se muestren como links*/
+    color: black;
+    font-size: 20px;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+#content
+{
+    float: left; /*Para que se desplace a la izquierda*/
+    width: calc(80% - 80px); /*Ancho de la caja, tiene sentido usar acá el porcentaje*/
+    min-height: 500px; /*Altura minima*/
+    background: green;
+    padding: 40px;
+}
+
+.article
+{
+    color: black;
+    margin:15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.article h2
+{
+    font-size: 35px;
+}
+
+aside
+{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 560px;
+    background: orange;
+    padding: 10px; /*Margen interior de una caja*/
+    font-size: 13px;
+}
+
+footer
+{
+    background: rgb(78, 1, 1);
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    height: 50px; /*Alto de la barra, necesario para dar color*/
+    line-height: 50px; /*Centrar texto al alto*/
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!--Si no se indica versión, usa la última por defecto-->
+<html lang="en"> <!--Esta etiqueta va a contener todo el sitio web-->
+<head> <!--Dónde van todos los metadatos, es decir los que le importan al navegador pero al usuario no-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de HTML</title>
+</head>
+<body> <!--Todo que si va dirigido al usuario-->
+    <h1>Página de contactos</h1>
+
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+        </ul>
+
+        <h1>Tablas</h1>
+        <!--border para tener un borde en toda la tabla-->
+        <table border="1">
+            <tr> <!--tr para crear una fila-->
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <!--th para definir el contenido de la fila en negrita-->
+            </tr>
+            <tr> <!--tr para crear otra fila-->
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>25</td>
+                <!--td para definir el contenido de cada fila-->
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Gonzalez</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Lopez</td>
+                <td>35</td>
+            </tr>
+        </table>
+
+        <h1>Formularios</h1>
+        <p>Formulario de contacto</p>
+        <!--form para crear elementos del formulario-->
+        <form action="">
+            <!--Etiqueta label para colocar el relleno-->
+            <label for="">Nombre</label>
+            <!--input para crear un campo de texto-->
+            <input type="text"> <br>
+
+            <label for="">Apellidos </label>
+            <input type="text"> <br>
+
+            <label for="">Email</label>
+            <input type="text"> <br>
+        </form>
+
+        <!--Select para crear un elemento con varias opciones dentro-->
+        <select name="" id="">
+            <!--option para las opciones del select, normalmente el value es para un DB-->
+            <option value="">Hombre</option>
+            <option value="">Mujer</option>
+        </select>
+
+       <!--Etiqueta input de tipo submit con el valor enviar-->  
+        <input type="submit" value="Enviar"> <br>
+
+        <!--Etiqueta div para poder dividir y agrupar nuestro contenido-->
+        <div id="titulo"><!--id para interactuar con ellos-->
+            <p>Contenido general dentro de un div</p>
+            <div class="titulo">
+                <p>Contenido 1</p>
+                <div class="titulo">
+                    <p>Contenido 2</p>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
