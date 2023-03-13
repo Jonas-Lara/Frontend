@@ -6,7 +6,7 @@
 
 ## Servidor con Node JS
 
-![](/Sources/serverNode.gif)
+![](/Sources/SN.gif)
 
 _Servidor Node JS desde Linux_
 
