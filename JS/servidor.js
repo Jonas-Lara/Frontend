@@ -9,6 +9,6 @@ function sitioWeb(req, res)
 
 let servidor = http.createServer(sitioWeb);
 
-servidor.listen(9090, "192.168.1.111");
+servidor.listen(9090, "localhost");
 
 console.log("Servidor corriendo en http://localhost:9090");
